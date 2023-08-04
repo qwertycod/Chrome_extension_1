@@ -1,0 +1,21 @@
+{
+    "name": "Popup project name",
+    "description": "ass data from background(browser tab) to popup js ",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "webRequest",
+        "scripting",
+        "activeTab",
+        "clipboardRead",
+        "clipboardWrite",
+        "tabs"
+    ],
+    "host_permissions": [
+        "your website url"
+    ],
+    "action":{
+        "default_title": "Popup and Content Script",
+        "default_popup": "popup.html"
+    }
+}
