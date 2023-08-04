@@ -1,0 +1,87 @@
+.popup{
+    font-family:monospace;
+    padding: 10px;
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 300px;
+}
+
+p {
+    margin: 10px;
+    font-size: 14px;
+}
+
+a {
+    display: block;
+    margin: auto;
+    color: #45feb7;
+    font-size: 12px;
+}
+.hidden{
+    display: none;
+}
+.show-hidden{
+    display: inline-block;
+}
+.greenLabel
+{
+    color: green;
+    font-size: 20px;
+}
+.redLabel{
+    color: red;
+    font-size: 20px
+}
+.inlineBlock{
+    display: inline-block;
+}
+.block{
+    display: block;
+    padding: 5px;
+    margin: 10px 0;
+}
+html{
+    background: lightsteelblue;
+}
+#container{
+    min-width: 466px;
+    background: lightcyan;
+    padding: 5px;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 46%;
+    top: 63%;
+  }
+
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  select,input{ cursor: pointer;}
+
+#controls{
+    font-size: 17px;
+    border-top: 1px solid grey;
+}
+#save, #backups{
+    font-size: 18px;
+    border: 2px solid steelblue;
+    cursor: pointer;
+    background: aliceblue;
+}
